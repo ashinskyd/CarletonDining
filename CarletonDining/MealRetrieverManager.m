@@ -26,6 +26,13 @@
 
 -(id)initWithURL:(NSURL *)url{
     _diningUrl = url;
+    _breakfastItems = [[NSMutableArray alloc] init];
+    _brunchItems = [[NSMutableArray alloc] init];
+    _lunchItems = [[NSMutableArray alloc] init];
+    _dinnerItems = [[NSMutableArray alloc] init];
+    _breakfastMenu = [[NSMutableDictionary alloc] init];
+    _lunchMenu = [[NSMutableDictionary alloc] init];
+    _dinnerMenu = [[NSMutableDictionary alloc] init];
     return self;
 }
 

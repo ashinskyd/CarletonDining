@@ -16,4 +16,6 @@
 @property NSString *dinnerTimes;
 
 -(DiningHallHoursManager *)initWithDiningHallIsBurton:(bool)isBurton;
+
+-(void)getDiningHallHours;
 @end
