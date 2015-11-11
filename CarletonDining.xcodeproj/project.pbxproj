@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC22C7F41BF2600100AD73EC /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */; };
+		EC5ECCAE1BF2C5CF000505CC /* MenuItemCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ECCAC1BF2C5CF000505CC /* MenuItemCellTableViewCell.m */; };
+		EC5ECCAF1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */; };
+		EC5ECCB81BF2F539000505CC /* DiningHallHoursManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ECCB71BF2F539000505CC /* DiningHallHoursManager.m */; };
+		EC94C69B1BF3A527005C91A9 /* SchillerRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EC94C69A1BF3A527005C91A9 /* SchillerRefreshControl.m */; };
+		ECC50FCA1BF13179003C0409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC50FC91BF13179003C0409 /* main.m */; };
+		ECC50FCD1BF13179003C0409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC50FCC1BF13179003C0409 /* AppDelegate.m */; };
+		ECC50FD01BF13179003C0409 /* MealDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC50FCF1BF13179003C0409 /* MealDetailsViewController.m */; };
+		ECC50FD61BF13179003C0409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC50FD41BF13179003C0409 /* Main.storyboard */; };
+		ECC50FD81BF13179003C0409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC50FD71BF13179003C0409 /* Assets.xcassets */; };
+		ECC50FDB1BF13179003C0409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC50FD91BF13179003C0409 /* LaunchScreen.storyboard */; };
+		ECE88CDE1BF146FC002854C7 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88CD91BF146FC002854C7 /* TFHpple.m */; };
+		ECE88CDF1BF146FC002854C7 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88CDB1BF146FC002854C7 /* TFHppleElement.m */; };
+		ECE88CE01BF146FC002854C7 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88CDD1BF146FC002854C7 /* XPathQuery.m */; };
+		ECE88CE41BF16ED8002854C7 /* Mealitem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE88CE31BF16ED8002854C7 /* Mealitem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC15AE451BF27EC800EA6A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC50FBD1BF13179003C0409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC50FC41BF13179003C0409;
+			remoteInfo = CarletonDining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC15AE401BF27EC800EA6A99 /* CarletonDiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarletonDiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC22C7F21BF2600100AD73EC /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTableViewController.h; path = ../SimpleTableViewController.h; sourceTree = "<group>"; };
+		EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTableViewController.m; path = ../SimpleTableViewController.m; sourceTree = "<group>"; };
+		EC5ECCAB1BF2C5CF000505CC /* MenuItemCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemCellTableViewCell.h; sourceTree = "<group>"; };
+		EC5ECCAC1BF2C5CF000505CC /* MenuItemCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemCellTableViewCell.m; sourceTree = "<group>"; };
+		EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemCellTableViewCell.xib; sourceTree = "<group>"; };
+		EC5ECCB61BF2F539000505CC /* DiningHallHoursManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningHallHoursManager.h; sourceTree = "<group>"; };
+		EC5ECCB71BF2F539000505CC /* DiningHallHoursManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningHallHoursManager.m; sourceTree = "<group>"; };
+		EC94C6991BF3A527005C91A9 /* SchillerRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchillerRefreshControl.h; sourceTree = "<group>"; };
+		EC94C69A1BF3A527005C91A9 /* SchillerRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchillerRefreshControl.m; sourceTree = "<group>"; };
+		ECC50FC51BF13179003C0409 /* CarletonDining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarletonDining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC50FC91BF13179003C0409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC50FCB1BF13179003C0409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC50FCC1BF13179003C0409 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC50FCE1BF13179003C0409 /* MealDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MealDetailsViewController.h; sourceTree = "<group>"; };
+		ECC50FCF1BF13179003C0409 /* MealDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealDetailsViewController.m; sourceTree = "<group>"; };
+		ECC50FD51BF13179003C0409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC50FD71BF13179003C0409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC50FDA1BF13179003C0409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC50FDC1BF13179003C0409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE88CD81BF146FC002854C7 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		ECE88CD91BF146FC002854C7 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		ECE88CDA1BF146FC002854C7 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		ECE88CDB1BF146FC002854C7 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		ECE88CDC1BF146FC002854C7 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		ECE88CDD1BF146FC002854C7 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		ECE88CE21BF16ED8002854C7 /* Mealitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mealitem.h; sourceTree = "<group>"; };
+		ECE88CE31BF16ED8002854C7 /* Mealitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mealitem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC15AE3D1BF27EC800EA6A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC50FC21BF13179003C0409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC50FBC1BF13179003C0409 = {
+			isa = PBXGroup;
+			children = (
+				EC94C6991BF3A527005C91A9 /* SchillerRefreshControl.h */,
+				EC94C69A1BF3A527005C91A9 /* SchillerRefreshControl.m */,
+				ECC50FC71BF13179003C0409 /* CarletonDining */,
+				ECC50FC61BF13179003C0409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC50FC61BF13179003C0409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC50FC51BF13179003C0409 /* CarletonDining.app */,
+				EC15AE401BF27EC800EA6A99 /* CarletonDiningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC50FC71BF13179003C0409 /* CarletonDining */ = {
+			isa = PBXGroup;
+			children = (
+				ECE88CE11BF14708002854C7 /* hpple */,
+				ECC50FCB1BF13179003C0409 /* AppDelegate.h */,
+				ECC50FCC1BF13179003C0409 /* AppDelegate.m */,
+				ECC5105E1BF13415003C0409 /* ViewControllers */,
+				ECC50FD41BF13179003C0409 /* Main.storyboard */,
+				ECC50FD71BF13179003C0409 /* Assets.xcassets */,
+				ECC50FD91BF13179003C0409 /* LaunchScreen.storyboard */,
+				ECC50FDC1BF13179003C0409 /* Info.plist */,
+				ECC50FC81BF13179003C0409 /* Supporting Files */,
+				ECE88CE21BF16ED8002854C7 /* Mealitem.h */,
+				ECE88CE31BF16ED8002854C7 /* Mealitem.m */,
+				EC5ECCB61BF2F539000505CC /* DiningHallHoursManager.h */,
+				EC5ECCB71BF2F539000505CC /* DiningHallHoursManager.m */,
+			);
+			path = CarletonDining;
+			sourceTree = "<group>";
+		};
+		ECC50FC81BF13179003C0409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC50FC91BF13179003C0409 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC5105E1BF13415003C0409 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC5ECCAB1BF2C5CF000505CC /* MenuItemCellTableViewCell.h */,
+				EC5ECCAC1BF2C5CF000505CC /* MenuItemCellTableViewCell.m */,
+				EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */,
+				EC22C7F21BF2600100AD73EC /* SimpleTableViewController.h */,
+				EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */,
+				ECC50FCE1BF13179003C0409 /* MealDetailsViewController.h */,
+				ECC50FCF1BF13179003C0409 /* MealDetailsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ECE88CE11BF14708002854C7 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				ECE88CD81BF146FC002854C7 /* TFHpple.h */,
+				ECE88CD91BF146FC002854C7 /* TFHpple.m */,
+				ECE88CDA1BF146FC002854C7 /* TFHppleElement.h */,
+				ECE88CDB1BF146FC002854C7 /* TFHppleElement.m */,
+				ECE88CDC1BF146FC002854C7 /* XPathQuery.h */,
+				ECE88CDD1BF146FC002854C7 /* XPathQuery.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC15AE3F1BF27EC800EA6A99 /* CarletonDiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC15AE491BF27EC800EA6A99 /* Build configuration list for PBXNativeTarget "CarletonDiningTests" */;
+			buildPhases = (
+				EC15AE3C1BF27EC800EA6A99 /* Sources */,
+				EC15AE3D1BF27EC800EA6A99 /* Frameworks */,
+				EC15AE3E1BF27EC800EA6A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC15AE461BF27EC800EA6A99 /* PBXTargetDependency */,
+			);
+			name = CarletonDiningTests;
+			productName = CarletonDiningTests;
+			productReference = EC15AE401BF27EC800EA6A99 /* CarletonDiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC50FC41BF13179003C0409 /* CarletonDining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC50FDF1BF13179003C0409 /* Build configuration list for PBXNativeTarget "CarletonDining" */;
+			buildPhases = (
+				ECC50FC11BF13179003C0409 /* Sources */,
+				ECC50FC21BF13179003C0409 /* Frameworks */,
+				ECC50FC31BF13179003C0409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarletonDining;
+			productName = CarletonDining;
+			productReference = ECC50FC51BF13179003C0409 /* CarletonDining.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC50FBD1BF13179003C0409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ashinsky, David";
+				TargetAttributes = {
+					EC15AE3F1BF27EC800EA6A99 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ECC50FC41BF13179003C0409;
+					};
+					ECC50FC41BF13179003C0409 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = ECC50FC01BF13179003C0409 /* Build configuration list for PBXProject "CarletonDining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC50FBC1BF13179003C0409;
+			productRefGroup = ECC50FC61BF13179003C0409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC50FC41BF13179003C0409 /* CarletonDining */,
+				EC15AE3F1BF27EC800EA6A99 /* CarletonDiningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC15AE3E1BF27EC800EA6A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC50FC31BF13179003C0409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC50FDB1BF13179003C0409 /* LaunchScreen.storyboard in Resources */,
+				EC5ECCAF1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib in Resources */,
+				ECC50FD81BF13179003C0409 /* Assets.xcassets in Resources */,
+				ECC50FD61BF13179003C0409 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC15AE3C1BF27EC800EA6A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC50FC11BF13179003C0409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE88CDF1BF146FC002854C7 /* TFHppleElement.m in Sources */,
+				ECE88CE01BF146FC002854C7 /* XPathQuery.m in Sources */,
+				ECE88CDE1BF146FC002854C7 /* TFHpple.m in Sources */,
+				ECE88CE41BF16ED8002854C7 /* Mealitem.m in Sources */,
+				EC94C69B1BF3A527005C91A9 /* SchillerRefreshControl.m in Sources */,
+				EC22C7F41BF2600100AD73EC /* SimpleTableViewController.m in Sources */,
+				ECC50FCD1BF13179003C0409 /* AppDelegate.m in Sources */,
+				ECC50FD01BF13179003C0409 /* MealDetailsViewController.m in Sources */,
+				ECC50FCA1BF13179003C0409 /* main.m in Sources */,
+				EC5ECCAE1BF2C5CF000505CC /* MenuItemCellTableViewCell.m in Sources */,
+				EC5ECCB81BF2F539000505CC /* DiningHallHoursManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC15AE461BF27EC800EA6A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC50FC41BF13179003C0409 /* CarletonDining */;
+			targetProxy = EC15AE451BF27EC800EA6A99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC50FD41BF13179003C0409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC50FD51BF13179003C0409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC50FD91BF13179003C0409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC50FDA1BF13179003C0409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC15AE471BF27EC800EA6A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarletonDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.CarletonDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarletonDining.app/CarletonDining";
+			};
+			name = Debug;
+		};
+		EC15AE481BF27EC800EA6A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarletonDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.CarletonDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarletonDining.app/CarletonDining";
+			};
+			name = Release;
+		};
+		ECC50FDD1BF13179003C0409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC50FDE1BF13179003C0409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC50FE01BF13179003C0409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				INFOPLIST_FILE = CarletonDining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.CarletonDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECC50FE11BF13179003C0409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				INFOPLIST_FILE = CarletonDining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.CarletonDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC15AE491BF27EC800EA6A99 /* Build configuration list for PBXNativeTarget "CarletonDiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC15AE471BF27EC800EA6A99 /* Debug */,
+				EC15AE481BF27EC800EA6A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC50FC01BF13179003C0409 /* Build configuration list for PBXProject "CarletonDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC50FDD1BF13179003C0409 /* Debug */,
+				ECC50FDE1BF13179003C0409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC50FDF1BF13179003C0409 /* Build configuration list for PBXNativeTarget "CarletonDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC50FE01BF13179003C0409 /* Debug */,
+				ECC50FE11BF13179003C0409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC50FBD1BF13179003C0409 /* Project object */;
+}
