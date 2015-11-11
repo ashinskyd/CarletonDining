@@ -11,7 +11,6 @@
 		EC5ECCAE1BF2C5CF000505CC /* MenuItemCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ECCAC1BF2C5CF000505CC /* MenuItemCellTableViewCell.m */; };
 		EC5ECCAF1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */; };
 		EC5ECCB81BF2F539000505CC /* DiningHallHoursManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ECCB71BF2F539000505CC /* DiningHallHoursManager.m */; };
-		EC94C69B1BF3A527005C91A9 /* SchillerRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EC94C69A1BF3A527005C91A9 /* SchillerRefreshControl.m */; };
 		ECC50FCA1BF13179003C0409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC50FC91BF13179003C0409 /* main.m */; };
 		ECC50FCD1BF13179003C0409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC50FCC1BF13179003C0409 /* AppDelegate.m */; };
 		ECC50FD01BF13179003C0409 /* MealDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC50FCF1BF13179003C0409 /* MealDetailsViewController.m */; };
@@ -43,8 +42,6 @@
 		EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemCellTableViewCell.xib; sourceTree = "<group>"; };
 		EC5ECCB61BF2F539000505CC /* DiningHallHoursManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningHallHoursManager.h; sourceTree = "<group>"; };
 		EC5ECCB71BF2F539000505CC /* DiningHallHoursManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningHallHoursManager.m; sourceTree = "<group>"; };
-		EC94C6991BF3A527005C91A9 /* SchillerRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchillerRefreshControl.h; sourceTree = "<group>"; };
-		EC94C69A1BF3A527005C91A9 /* SchillerRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchillerRefreshControl.m; sourceTree = "<group>"; };
 		ECC50FC51BF13179003C0409 /* CarletonDining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarletonDining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC50FC91BF13179003C0409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECC50FCB1BF13179003C0409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,8 +83,6 @@
 		ECC50FBC1BF13179003C0409 = {
 			isa = PBXGroup;
 			children = (
-				EC94C6991BF3A527005C91A9 /* SchillerRefreshControl.h */,
-				EC94C69A1BF3A527005C91A9 /* SchillerRefreshControl.m */,
 				ECC50FC71BF13179003C0409 /* CarletonDining */,
 				ECC50FC61BF13179003C0409 /* Products */,
 			);
@@ -269,7 +264,6 @@
 				ECE88CE01BF146FC002854C7 /* XPathQuery.m in Sources */,
 				ECE88CDE1BF146FC002854C7 /* TFHpple.m in Sources */,
 				ECE88CE41BF16ED8002854C7 /* Mealitem.m in Sources */,
-				EC94C69B1BF3A527005C91A9 /* SchillerRefreshControl.m in Sources */,
 				EC22C7F41BF2600100AD73EC /* SimpleTableViewController.m in Sources */,
 				ECC50FCD1BF13179003C0409 /* AppDelegate.m in Sources */,
 				ECC50FD01BF13179003C0409 /* MealDetailsViewController.m in Sources */,

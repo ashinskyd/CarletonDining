@@ -9,7 +9,6 @@
 #import "SimpleTableViewController.h"
 #import "TFHpple.h"
 #import "MealDetailsViewController.h"
-#import "SchillerRefreshControl.h"
 #import "DiningHallHoursManager.h"
 #import "Mealitem.h"
 
