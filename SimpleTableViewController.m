@@ -15,21 +15,7 @@
 
 @interface SimpleTableViewController ()
 
-//-(void)traverseMealItems:(TFHppleElement *) withStartingElement;
-//-(void)setupMenuData;
-//-(void)setupNumberOfSections;
-//-(void)updateMenuData;
-
 @property NSURL *diningUrl;
-//@property NSMutableArray *breakfastItems;
-//@property NSMutableDictionary *breakfastMenu;
-//@property NSMutableArray *lunchItems;
-//@property NSMutableDictionary *lunchMenu;
-//@property NSMutableArray *dinnerItems;
-//@property NSMutableDictionary *dinnerMenu;
-//@property NSMutableArray *brunchItems;
-//@property NSMutableDictionary *brunchMenu;
-
 @property bool isBurton;
 
 @property DiningHallHoursManager *hoursManager;
@@ -39,6 +25,7 @@
 
 @implementation SimpleTableViewController
 
+#pragma tableView delegate methods
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50;
 }

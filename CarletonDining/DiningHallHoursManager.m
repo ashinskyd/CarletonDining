@@ -13,7 +13,6 @@
 
 @property NSURL *url;
 
-
 typedef enum dateType{
     Sunday = 1,
     Monday = 2,
@@ -37,6 +36,7 @@ typedef enum dateType{
     _currentDay = (dateType)[component weekday];
     return self;
 }
+
 
 -(void)getDiningHallHours{
     NSData *data = [NSData dataWithContentsOfURL:_url];
