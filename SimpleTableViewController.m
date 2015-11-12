@@ -6,6 +6,8 @@
 //  Copyright © 2015 Ashinsky, David. All rights reserved.
 //
 
+#import <Parse/Parse.h>
+
 #import "SimpleTableViewController.h"
 #import "TFHpple.h"
 #import "MealDetailsViewController.h"
@@ -116,12 +118,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"foo"] = @"bar";
+    [testObject saveInBackground];
     if([[self tabBarController] selectedIndex] == 0){
         _diningUrl = [NSURL URLWithString:@"http://legacy.cafebonappetit.com/print-menu/cafe/35/menu/92399/days/today/pgbrks/0/"];
         _isBurton = YES;
     
     }else{
-            _diningUrl = [NSURL URLWithString:@"http://legacy.cafebonappetit.com/print-menu/cafe/36/menu/92475/days/today/pgbrks/0"];
+        _diningUrl = [NSURL URLWithString:@"http://legacy.cafebonappetit.com/print-menu/cafe/36/menu/92475/days/today/pgbrks/0"];
         _isBurton = NO;
     }
     self.refreshControl = [[UIRefreshControl alloc] init];
@@ -164,7 +169,7 @@
         }
 
     });
-}
+}   
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

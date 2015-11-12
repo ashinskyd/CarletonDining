@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0533521BF43298006716B5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0533501BF43298006716B5 /* Bolts.framework */; };
+		EC0533531BF43298006716B5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0533511BF43298006716B5 /* Parse.framework */; };
+		EC05335F1BF43399006716B5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0533551BF43399006716B5 /* AudioToolbox.framework */; };
+		EC0533601BF43399006716B5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0533561BF43399006716B5 /* CFNetwork.framework */; };
+		EC0533611BF43399006716B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0533571BF43399006716B5 /* CoreGraphics.framework */; };
+		EC0533621BF43399006716B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0533581BF43399006716B5 /* CoreLocation.framework */; };
+		EC0533631BF43399006716B5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0533591BF43399006716B5 /* libsqlite3.tbd */; };
+		EC0533641BF43399006716B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05335A1BF43399006716B5 /* libz.tbd */; };
+		EC0533651BF43399006716B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05335B1BF43399006716B5 /* QuartzCore.framework */; };
+		EC0533661BF43399006716B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05335C1BF43399006716B5 /* Security.framework */; };
+		EC0533671BF43399006716B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05335D1BF43399006716B5 /* StoreKit.framework */; };
+		EC0533681BF43399006716B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05335E1BF43399006716B5 /* SystemConfiguration.framework */; };
 		EC22C7F41BF2600100AD73EC /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */; };
 		EC5ECCAE1BF2C5CF000505CC /* MenuItemCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ECCAC1BF2C5CF000505CC /* MenuItemCellTableViewCell.m */; };
 		EC5ECCAF1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */; };
@@ -35,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC0533501BF43298006716B5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		EC0533511BF43298006716B5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EC0533551BF43399006716B5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC0533561BF43399006716B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EC0533571BF43399006716B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC0533581BF43399006716B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC0533591BF43399006716B5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EC05335A1BF43399006716B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EC05335B1BF43399006716B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC05335C1BF43399006716B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EC05335D1BF43399006716B5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EC05335E1BF43399006716B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EC15AE401BF27EC800EA6A99 /* CarletonDiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarletonDiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC22C7F21BF2600100AD73EC /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTableViewController.h; path = ../SimpleTableViewController.h; sourceTree = "<group>"; };
 		EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTableViewController.m; path = ../SimpleTableViewController.m; sourceTree = "<group>"; };
@@ -77,12 +101,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC05335F1BF43399006716B5 /* AudioToolbox.framework in Frameworks */,
+				EC0533601BF43399006716B5 /* CFNetwork.framework in Frameworks */,
+				EC0533611BF43399006716B5 /* CoreGraphics.framework in Frameworks */,
+				EC0533621BF43399006716B5 /* CoreLocation.framework in Frameworks */,
+				EC0533631BF43399006716B5 /* libsqlite3.tbd in Frameworks */,
+				EC0533641BF43399006716B5 /* libz.tbd in Frameworks */,
+				EC0533651BF43399006716B5 /* QuartzCore.framework in Frameworks */,
+				EC0533661BF43399006716B5 /* Security.framework in Frameworks */,
+				EC0533671BF43399006716B5 /* StoreKit.framework in Frameworks */,
+				EC0533681BF43399006716B5 /* SystemConfiguration.framework in Frameworks */,
+				EC0533531BF43298006716B5 /* Parse.framework in Frameworks */,
+				EC0533521BF43298006716B5 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC0533541BF432B4006716B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC0533551BF43399006716B5 /* AudioToolbox.framework */,
+				EC0533561BF43399006716B5 /* CFNetwork.framework */,
+				EC0533571BF43399006716B5 /* CoreGraphics.framework */,
+				EC0533581BF43399006716B5 /* CoreLocation.framework */,
+				EC0533591BF43399006716B5 /* libsqlite3.tbd */,
+				EC05335A1BF43399006716B5 /* libz.tbd */,
+				EC05335B1BF43399006716B5 /* QuartzCore.framework */,
+				EC05335C1BF43399006716B5 /* Security.framework */,
+				EC05335D1BF43399006716B5 /* StoreKit.framework */,
+				EC05335E1BF43399006716B5 /* SystemConfiguration.framework */,
+				EC0533501BF43298006716B5 /* Bolts.framework */,
+				EC0533511BF43298006716B5 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC699E8B1BF3E510006BFEBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +161,7 @@
 		ECC50FBC1BF13179003C0409 = {
 			isa = PBXGroup;
 			children = (
+				EC0533541BF432B4006716B5 /* Frameworks */,
 				ECC50FC71BF13179003C0409 /* CarletonDining */,
 				ECC50FC61BF13179003C0409 /* Products */,
 			);
@@ -435,6 +491,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
 				INFOPLIST_FILE = CarletonDining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -448,6 +509,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
 				INFOPLIST_FILE = CarletonDining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
