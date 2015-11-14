@@ -33,6 +33,7 @@
     _breakfastMenu = [[NSMutableDictionary alloc] init];
     _lunchMenu = [[NSMutableDictionary alloc] init];
     _dinnerMenu = [[NSMutableDictionary alloc] init];
+    _brunchMenu = [[NSMutableDictionary alloc] init];
     return self;
 }
 
@@ -50,7 +51,7 @@
 
 -(void)traverseMealItems:(TFHppleElement *) withStartingElement{
     NSString *kitchen;
-    NSString *currentMeal = @"Breakfast";
+    NSString *currentMeal = @"Brunch";
     [_breakfastMenu removeAllObjects];
     [_lunchMenu removeAllObjects];
     [_brunchMenu removeAllObjects];
@@ -68,9 +69,10 @@
                         currentMeal = @"Lunch";
                         continue;
                     }else if([[potentialItem text] isEqualToString:@"Breakfast"]){
+                        currentMeal = @"Breakfast";
                         continue;
                     }else if([[potentialItem text] isEqualToString:@"Brunch"]){
-                        currentMeal = @"Brunch";
+                        continue;
                     }else{
                         currentMeal = @"Dinner";
                     }
@@ -80,7 +82,6 @@
                     mealEntry.name = extras[0];
                     if(extras.count > 1){
                         for(int x=1;x<extras.count;x++){
-                            
                             if([extras[x] containsString:@"?G"]){
                                 specialArgs arg= glutentFree;
                                 [mealEntry.specials addObject:[NSNumber numberWithInt:arg]];
@@ -106,6 +107,8 @@
                         [_lunchItems addObject:mealEntry];
                     }else if([currentMeal isEqualToString:@"Dinner"] ){
                         [_dinnerItems addObject:mealEntry];
+                    }else if([currentMeal isEqualToString:@"Brunch"] ){
+                        [_brunchItems addObject:mealEntry];
                     }
                 }else{
                     TFHppleElement *potentialItem = [[e childrenWithTagName:@"td"][1] firstChildWithTagName:@"strong"];
@@ -157,6 +160,19 @@
 
 -(void) setupMealsWithStations{
     NSMutableArray *kitchens = [[NSMutableArray alloc] init];
+    for( Mealitem *i in _brunchItems){
+        if(! [kitchens containsObject:[i kitchen]]){
+            [kitchens  addObject:[i kitchen]];
+        }
+    }for( NSString *i in kitchens){
+        [_brunchMenu setObject:[[NSMutableArray alloc] initWithCapacity:0] forKey:i];
+    }
+    for( Mealitem *i in _brunchItems){
+        NSMutableArray *oldItems = [_brunchMenu objectForKey:[i kitchen]];
+        [oldItems addObject:i];
+        [_brunchMenu setObject:oldItems forKey:[i kitchen]];
+    }
+    [kitchens removeAllObjects];
     for( Mealitem *i in _breakfastItems){
         if(! [kitchens containsObject:[i kitchen]]){
             [kitchens  addObject:[i kitchen]];

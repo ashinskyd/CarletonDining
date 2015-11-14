@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReviewsPopoverViewController">
+            <connections>
+                <outlet property="backButton" destination="CqU-0b-pIt" id="vET-d0-2mb"/>
+                <outlet property="tableview" destination="6ak-eJ-aDl" id="Igg-xd-xzZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6ak-eJ-aDl">
+                    <rect key="frame" x="0.0" y="52" width="600" height="548"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bp0-bK-Nbi">
+                    <rect key="frame" x="0.0" y="8" width="600" height="44"/>
+                    <animations/>
+                    <items>
+                        <navigationItem title="Title" id="Ww6-7r-FWk">
+                            <barButtonItem key="rightBarButtonItem" title="Dismiss" id="CqU-0b-pIt">
+                                <connections>
+                                    <action selector="dismiss:" destination="-1" id="xhh-0D-gnW"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6ak-eJ-aDl" firstAttribute="top" secondItem="Bp0-bK-Nbi" secondAttribute="bottom" id="4CX-GW-AYU"/>
+                <constraint firstItem="Bp0-bK-Nbi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8JI-5n-ThP"/>
+                <constraint firstAttribute="bottom" secondItem="6ak-eJ-aDl" secondAttribute="bottom" id="Wz5-5H-Q6c"/>
+                <constraint firstItem="6ak-eJ-aDl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZKQ-4b-h0I"/>
+                <constraint firstItem="Bp0-bK-Nbi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="hLt-NT-MEX"/>
+                <constraint firstAttribute="trailing" secondItem="6ak-eJ-aDl" secondAttribute="trailing" id="wZu-sV-C0u"/>
+                <constraint firstAttribute="trailing" secondItem="Bp0-bK-Nbi" secondAttribute="trailing" id="zCR-WE-FZq"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

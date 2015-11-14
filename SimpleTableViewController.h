@@ -11,5 +11,6 @@
 @interface SimpleTableViewController : UITableViewController
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+- (IBAction)showPopover:(id)sender;
 
 @end

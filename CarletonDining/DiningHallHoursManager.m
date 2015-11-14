@@ -34,6 +34,7 @@ typedef enum dateType{
     NSCalendar* calender = [NSCalendar currentCalendar];
     NSDateComponents* component = [calender components:NSWeekdayCalendarUnit fromDate:[NSDate date]];
     _currentDay = (dateType)[component weekday];
+    _isBurton = isBurton;
     return self;
 }
 
@@ -52,6 +53,7 @@ typedef enum dateType{
             if (_currentDay==Sunday || _currentDay == Saturday){
                 _brunchTimes = [[hoursElements[3] childrenWithTagName:@"td"][2] text];
                 _breakfastTimes = @"CLOSED";
+                _lunchTimes = @"CLOSED";
             }else{
                 _brunchTimes = @"CLOSED";
                 _breakfastTimes = [[hoursElements[0] childrenWithTagName:@"td"][2] text];

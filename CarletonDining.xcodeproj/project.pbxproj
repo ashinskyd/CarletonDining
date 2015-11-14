@@ -20,6 +20,8 @@
 		EC0533671BF43399006716B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05335D1BF43399006716B5 /* StoreKit.framework */; };
 		EC0533681BF43399006716B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05335E1BF43399006716B5 /* SystemConfiguration.framework */; };
 		EC22C7F41BF2600100AD73EC /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */; };
+		EC4368961BF4FEEC003229BD /* ReviewsPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4368941BF4FEEC003229BD /* ReviewsPopoverViewController.m */; };
+		EC4368971BF4FEEC003229BD /* ReviewsPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4368951BF4FEEC003229BD /* ReviewsPopoverViewController.xib */; };
 		EC5ECCAE1BF2C5CF000505CC /* MenuItemCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ECCAC1BF2C5CF000505CC /* MenuItemCellTableViewCell.m */; };
 		EC5ECCAF1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */; };
 		EC5ECCB81BF2F539000505CC /* DiningHallHoursManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ECCB71BF2F539000505CC /* DiningHallHoursManager.m */; };
@@ -62,6 +64,9 @@
 		EC15AE401BF27EC800EA6A99 /* CarletonDiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarletonDiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC22C7F21BF2600100AD73EC /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTableViewController.h; path = ../SimpleTableViewController.h; sourceTree = "<group>"; };
 		EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTableViewController.m; path = ../SimpleTableViewController.m; sourceTree = "<group>"; };
+		EC4368931BF4FEEC003229BD /* ReviewsPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewsPopoverViewController.h; sourceTree = "<group>"; };
+		EC4368941BF4FEEC003229BD /* ReviewsPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewsPopoverViewController.m; sourceTree = "<group>"; };
+		EC4368951BF4FEEC003229BD /* ReviewsPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewsPopoverViewController.xib; sourceTree = "<group>"; };
 		EC5ECCAB1BF2C5CF000505CC /* MenuItemCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemCellTableViewCell.h; sourceTree = "<group>"; };
 		EC5ECCAC1BF2C5CF000505CC /* MenuItemCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemCellTableViewCell.m; sourceTree = "<group>"; };
 		EC5ECCAD1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemCellTableViewCell.xib; sourceTree = "<group>"; };
@@ -212,6 +217,9 @@
 				EC22C7F31BF2600100AD73EC /* SimpleTableViewController.m */,
 				ECC50FCE1BF13179003C0409 /* MealDetailsViewController.h */,
 				ECC50FCF1BF13179003C0409 /* MealDetailsViewController.m */,
+				EC4368931BF4FEEC003229BD /* ReviewsPopoverViewController.h */,
+				EC4368941BF4FEEC003229BD /* ReviewsPopoverViewController.m */,
+				EC4368951BF4FEEC003229BD /* ReviewsPopoverViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -320,6 +328,7 @@
 				EC5ECCAF1BF2C5CF000505CC /* MenuItemCellTableViewCell.xib in Resources */,
 				ECC50FD81BF13179003C0409 /* Assets.xcassets in Resources */,
 				ECC50FD61BF13179003C0409 /* Main.storyboard in Resources */,
+				EC4368971BF4FEEC003229BD /* ReviewsPopoverViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +350,7 @@
 				ECE88CE01BF146FC002854C7 /* XPathQuery.m in Sources */,
 				ECE88CDE1BF146FC002854C7 /* TFHpple.m in Sources */,
 				ECE88CE41BF16ED8002854C7 /* Mealitem.m in Sources */,
+				EC4368961BF4FEEC003229BD /* ReviewsPopoverViewController.m in Sources */,
 				EC22C7F41BF2600100AD73EC /* SimpleTableViewController.m in Sources */,
 				ECC50FCD1BF13179003C0409 /* AppDelegate.m in Sources */,
 				EC699E8F1BF3E53C006BFEBA /* MealRetrieverManager.m in Sources */,

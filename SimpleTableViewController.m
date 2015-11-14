@@ -13,6 +13,7 @@
 #import "MealDetailsViewController.h"
 #import "DiningHallHoursManager.h"
 #import "MealRetrieverManager.h"
+#import "ReviewsPopoverViewController.h"
 #import "Mealitem.h"
 
 @interface SimpleTableViewController ()
@@ -22,6 +23,7 @@
 
 @property DiningHallHoursManager *hoursManager;
 @property MealRetrieverManager *mealRetriever;
+
 
 @end
 
@@ -116,6 +118,12 @@
     return cell;
 }
 
+- (void)showPopover:(id)sender
+{
+    ReviewsPopoverViewController *aController = [[ReviewsPopoverViewController alloc] init];
+    [self presentViewController:aController animated:YES completion:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
@@ -206,7 +214,4 @@
     }
     
 }
-#pragma mark - Navigation
-
-
 @end
