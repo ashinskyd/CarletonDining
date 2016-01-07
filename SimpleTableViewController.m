@@ -130,11 +130,11 @@
     testObject[@"foo"] = @"bar";
     [testObject saveInBackground];
     if([[self tabBarController] selectedIndex] == 0){
-        _diningUrl = [NSURL URLWithString:@"http://legacy.cafebonappetit.com/print-menu/cafe/35/menu/92399/days/today/pgbrks/0/"];
+        _diningUrl = [NSURL URLWithString:@"http://legacy.cafebonappetit.com/print-menu/cafe/35/menu/97706/days/today/pgbrks/0/"];
         _isBurton = YES;
     
     }else{
-        _diningUrl = [NSURL URLWithString:@"http://legacy.cafebonappetit.com/print-menu/cafe/36/menu/92475/days/today/pgbrks/0"];
+        _diningUrl = [NSURL URLWithString:@"http://legacy.cafebonappetit.com/print-menu/cafe/36/menu/97558/days/today/pgbrks/0/"];
         _isBurton = NO;
     }
     self.refreshControl = [[UIRefreshControl alloc] init];

@@ -64,7 +64,9 @@
         if([[e tagName] isEqualToString:@"tr"]){
             if([e firstChildWithTagName:@"td"]){
                 TFHppleElement *potentialItem = [[e firstChildWithTagName:@"td"] firstChildWithTagName:@"strong"];
+                
                 if( [[e objectForKey:@"class" ] isEqualToString:@"always-show-me"]){
+                    
                     if(  [[potentialItem text] isEqualToString:@"Lunch"] ){
                         currentMeal = @"Lunch";
                         continue;
@@ -102,6 +104,7 @@
                     }
                     mealEntry.kitchen = kitchen;
                     if( [currentMeal isEqualToString:@"Breakfast"] ){
+                       
                         [_breakfastItems addObject:mealEntry];
                     }else if([currentMeal isEqualToString:@"Lunch"] ){
                         [_lunchItems addObject:mealEntry];

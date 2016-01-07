@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern int x;
+
 @interface DiningHallHoursManager : NSObject
 
 @property NSString *breakfastTimes;
